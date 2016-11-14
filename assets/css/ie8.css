@@ -1,77 +1,43 @@
 /*
-	Telephasic by HTML5 UP
+	Forty by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Basic */
+/* Button */
 
-	form input[type="text"],
-	form input[type="email"],
-	form input[type="password"],
-	form select,
-	form textarea {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
-
-	input[type="button"],
-	input[type="submit"],
-	input[type="reset"],
-	button,
 	.button {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
+		border: solid 2px !important;
 	}
 
-/* Promo */
+		.button.next {
+			padding-right: 1.75em;
+		}
 
-	#promo {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
+			.button.next:before, .button.next:after {
+				display: none;
+			}
 
-/* Section/Article */
+/* Tiles */
 
-	section > .last-child,
-	article > .last-child,
-	section.last-child,
-	article.last-child {
-		margin-bottom: 0;
-	}
-
-/* Wrappers */
-
-	#promo-wrapper {
-		background: url("../../images/promo.jpg");
+	.tiles article {
+		width: 50%;
+		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
 		background-size: cover;
+	}
+
+/* Banner */
+
+	#banner {
 		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
 	}
 
-/* Header */
-
-	#logo a {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
-
-/* Nav */
-
-	#nav > ul > li > span, #nav > ul > li > a {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
-
-	.dropotron {
-		position: relative;
-		box-shadow: none !important;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
-
-		.dropotron.level-0 {
-			box-shadow: none !important;
+		#banner:after {
+			display: none;
 		}
 
-			.dropotron.level-0:before {
-				display: none;
-			}
+/* Menu */
+
+	#menu {
+		background: #242943;
+	}
